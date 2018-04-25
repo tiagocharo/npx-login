@@ -55,10 +55,10 @@
     </div>
 
     <script>
-        var anime = document.querySelectorAll('.label');
+        var label = document.querySelectorAll('.label');
 
-        for(var i = 0; i < anime.length; i ++) {
-            anime[i].addEventListener('click', function() {
+        for(var i = 0; i < label.length; i ++) {
+            label[i].addEventListener('click', function() {
                 this.classList.add('label-anime');
                 this.nextElementSibling.classList.add('input-anime')
             })

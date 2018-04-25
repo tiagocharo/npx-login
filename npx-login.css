@@ -5,8 +5,7 @@
 }
 
 .label-anime {
-    font-size: 12px!important;
-    top: -20px!important;
+    display: none!important;
 }
 .input-anime {
     width: 100%;
@@ -14,7 +13,8 @@
 
 .container {
     background-image: url('assets/Group 2.jpg');
-    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .container .content {
     max-width: 326px;
@@ -59,7 +59,6 @@
     color: #E6EBEF;
     letter-spacing: 0;
     text-align: center;
-    transition: all 1s;
 }
 .container .box-form .form .middle input {
     background-color: transparent;
@@ -67,7 +66,6 @@
     font-size: 17px;
     border: none;
     height: 20px;
-    transition: all 1s;
     outline: none;
 }
 .container .box-form .form .box-submit {
