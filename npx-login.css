@@ -15,6 +15,7 @@
     background-image: url('assets/Group 2.jpg');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .container .content {
     max-width: 326px;
